@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import Table from './09_fragments/Lesson.jsx';
+import Form from "./10_form/Lesson";
 
-ReactDOM.render(<Table/>, document.getElementById('root'));
+ReactDOM.render(<Form/>, document.getElementById('root'));
 registerServiceWorker();
