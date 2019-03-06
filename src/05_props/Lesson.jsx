@@ -47,12 +47,12 @@ export class Lesson extends Component {
     }
 
     state = {
-        counter: 0,
+        click: 0,
     }
 
     handleClick = () => {
         this.setState(({ counter }) => ({
-            counter: ++counter,
+            click: ++counter,
         }))
     }
 
@@ -64,7 +64,7 @@ export class Lesson extends Component {
             <div>
                 {child}
                 <div>{counter}</div>
-                {React.cloneElement(children, {counter: this.state.counter})}
+                {React.cloneElement(children, {click: this.state.counter})}
                 <button onClick={this.handleClick}>+1</button>
             </div>
         );

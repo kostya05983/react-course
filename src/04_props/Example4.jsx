@@ -26,7 +26,7 @@ class CounterButton extends Component {
 
     onClick = () => {
         this.setState(({counter})=>({
-            counter: ++counter,
+            click: ++counter,
         }))
     }
 

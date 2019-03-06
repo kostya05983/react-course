@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import Form from "./13_high/Lesson";
+import  Lesson from "./14_portals/Lesson";
 
-ReactDOM.render(<Form/>, document.getElementById('root'));
+ReactDOM.render(<Lesson/>, document.getElementById('root'));
 registerServiceWorker();
